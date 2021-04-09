@@ -19,7 +19,12 @@ export default {
     input {
       height: 30px;
       border: 0;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #fff;
+      transition: box-shadow .5s;
+    }
+    input:focus {
+        outline: none;
+        box-shadow: 0 5px -8px white;
     }
   }
 </style>
